@@ -489,8 +489,7 @@ ul {
 .footer-content {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
-}
+ }
 
 .footer-contacts-div {
   margin-right: 70px;
@@ -590,6 +589,7 @@ ul {
 .footer-form {
   display: flex;
   flex-direction: column;
+  margin-left: auto;
 }
 
 .footer-label {
@@ -873,8 +873,10 @@ ul {
 .tel-input-icon,
 .mail-input-icon {
   position: absolute;
-  top: 15px;
+  top: 50%;
   left: 15px;
+  transform: translateY(-75%);
+
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -882,7 +884,7 @@ ul {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
-  margin-top: 25px;
+  margin-top: 20px;
   justify-content: center;
 }
 
